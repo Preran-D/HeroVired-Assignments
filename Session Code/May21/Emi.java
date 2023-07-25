@@ -1,3 +1,5 @@
+package May21;
+
 import java.util.Scanner;
 
 public class Emi {
