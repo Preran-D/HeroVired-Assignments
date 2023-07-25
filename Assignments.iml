@@ -3,8 +3,15 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Graded Assignment on Arrays and File Handling in Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graded Assignment on Arrays and Functions in Java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Graded Assignment on Introduction to Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graded Assignment on Java as a OOP Language" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice Assignment on Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice Assignment on File and Exception Handling in Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice Assignment on Java as a OOP Language" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practice Assignment on Loops and Conditional Statements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Session Code" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
