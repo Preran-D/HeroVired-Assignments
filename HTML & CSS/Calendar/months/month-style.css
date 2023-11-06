@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Georgia;
+}
+
+:root {
+    --calendar-color: #f3eee8;
+    --left-font: #005454;
+    --right-font: #819462;
+}
+
+.container {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 90vh;
+    background-color: var(--calendar-color);
+    border-radius: 2rem;
+}
+
+.calendar {
+    flex: 75%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--left-font);
+}
+
+.calendar caption {
+    color: #819462;
+    font-size: 1.5rem;
+    text-align: start;
+    margin: 1.5rem;
+}
+
+
+
+.calendar table {
+    text-align: center;
+    flex: 4rem;
+    margin: 3rem;
+    border-bottom: 1px solid #005454;
+}
+
+.calendar td{
+    padding: 0.5rem;
+}
+
+.right {
+    flex: 15%;
+    background-color: var(--calendar-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.name-year {
+    color: var(--right-font);
+    font-size: 12vw;
+    transform: rotate(-90deg);
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.footer {
+    display: flex;
+    color: #005454;
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 3rem;
+}
+
+@media (max-width: 1134px) {
+    .container {
+        width: fit-content;
+        background-color: var(--calendar-color);
+    }
+       .calendar {
+        flex: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+}
