@@ -14,6 +14,9 @@ let customers = [
 
 let selectCustomers = customers.filter(customer => customer.totalBillingAmount > 3000);
 
-selectCustomers.forEach(customer => {
-    console.log(`Customer ID: ${customer.customerID}, Customer Name: ${customer.customerName}, Total Billing Amount: ${customer.totalBillingAmount}`);
+let customerDetails = selectedCustomers.map(customer => {
+    return {name: customer.customerName, purchase: customer.totalBillingAmount};
 });
+
+
+console.log(customerDetails);
